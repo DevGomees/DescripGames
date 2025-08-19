@@ -1,6 +1,6 @@
 package com.tohelp.feedbacks.dto;
 
-import com.tohelp.feedbacks.entities.Games;
+import com.tohelp.feedbacks.entities.Game;
 
 public class GameMinDTO {
     private Long id;
@@ -12,7 +12,7 @@ public class GameMinDTO {
     public GameMinDTO() {
     }
 
-    public GameMinDTO(Games entity) {
+    public GameMinDTO(Game entity) {
         id = entity.getId();
         title = entity.getTitle();
         year = entity.getYear();
