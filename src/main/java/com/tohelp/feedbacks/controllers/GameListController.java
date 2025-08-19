@@ -1,8 +1,8 @@
 package com.tohelp.feedbacks.controllers;
 
-
-import com.tohelp.feedbacks.dto.GameDTO;
+import com.tohelp.feedbacks.dto.GameListDTO;
 import com.tohelp.feedbacks.dto.GameMinDTO;
+import com.tohelp.feedbacks.services.GameListService;
 import com.tohelp.feedbacks.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,25 +13,23 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/games")
-public class GameController {
+@RequestMapping("/lists")
+public class GameListController {
+    @Autowired
+    private GameListService gameListService;
 
     @Autowired
     private GameService gameService;
 
-    @GetMapping(value = "/{id}")
-    public GameDTO findById(@PathVariable long id) {
-        GameDTO result = gameService.findById(id);
-        return result;
-    }
-
-
     @GetMapping
-    public List<GameMinDTO> findAll() {
-        List<GameMinDTO> result = gameService.findAll();
+    public List<GameListDTO> findAll() {
+        List<GameListDTO> result = gameListService.findAll();
         return result;
     }
 
-
-
+    @GetMapping(value = "/{listId}/games")
+    public List<GameMinDTO> findByList(@PathVariable long listId){
+        List<GameMinDTO> result = gameService.findByList(listId);
+        return result;
+    }
 }
