@@ -10,11 +10,10 @@
 <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="70" height="50"/> </a> </p>
 
 # DescripGames
+## Description
+Backend para listagem e descrição de jogos, aplicando conceitos de arquitetura de software e boas práticas no backend. O projeto foi estruturado com Spring Boot (Spring Rest), utilizando padrão em camadas (Controller, Service, Repository) e DTOs para transferência de dados. Implementação de entidades com JPA/Hibernate, incluindo relacionamentos N-N com classes de associação e embedded id, além de consultas personalizadas com Spring Data JPA. O banco de dados foi configurado em PostgreSQL, com database seeding para popular a aplicação. Projeto seguiu o modelo cliente/servidor, com comunicação via HTTP/JSON, seguindo o padrão REST. 
 
-## Stack
-
-This application use:
-
+## Stacks
 - Java 21
 - Spring Boot 3.5.5
 - Postgresql
