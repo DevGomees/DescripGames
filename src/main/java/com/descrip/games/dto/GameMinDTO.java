@@ -1,7 +1,7 @@
-package com.tohelp.feedbacks.dto;
+package com.descrip.games.dto;
 
-import com.tohelp.feedbacks.entities.Game;
-import com.tohelp.feedbacks.projections.GameMinProjection;
+import com.descrip.games.entities.Game;
+import com.descrip.games.projections.GameMinProjection;
 import lombok.Getter;
 import lombok.Setter;
 

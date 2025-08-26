@@ -1,4 +1,4 @@
-package com.tohelp.feedbacks.projections;
+package com.descrip.games.projections;
 
 public interface GameMinProjection {
     Long getId();

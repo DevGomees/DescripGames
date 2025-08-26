@@ -1,6 +1,6 @@
-package com.tohelp.feedbacks.dto;
+package com.descrip.games.dto;
 
-import com.tohelp.feedbacks.entities.Game;
+import com.descrip.games.entities.Game;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.beans.BeanUtils;

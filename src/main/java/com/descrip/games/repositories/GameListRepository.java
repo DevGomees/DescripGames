@@ -1,6 +1,6 @@
-package com.tohelp.feedbacks.repositories;
+package com.descrip.games.repositories;
 
-import com.tohelp.feedbacks.entities.GameList;
+import com.descrip.games.entities.GameList;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

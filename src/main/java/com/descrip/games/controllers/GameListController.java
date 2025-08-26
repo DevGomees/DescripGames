@@ -1,10 +1,10 @@
-package com.tohelp.feedbacks.controllers;
+package com.descrip.games.controllers;
 
-import com.tohelp.feedbacks.dto.GameListDTO;
-import com.tohelp.feedbacks.dto.GameMinDTO;
-import com.tohelp.feedbacks.dto.ReplacementDTO;
-import com.tohelp.feedbacks.services.GameListService;
-import com.tohelp.feedbacks.services.GameService;
+import com.descrip.games.dto.GameListDTO;
+import com.descrip.games.dto.GameMinDTO;
+import com.descrip.games.dto.ReplacementDTO;
+import com.descrip.games.services.GameListService;
+import com.descrip.games.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

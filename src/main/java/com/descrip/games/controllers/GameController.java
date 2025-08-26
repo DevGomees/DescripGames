@@ -1,9 +1,9 @@
-package com.tohelp.feedbacks.controllers;
+package com.descrip.games.controllers;
 
 
-import com.tohelp.feedbacks.dto.GameDTO;
-import com.tohelp.feedbacks.dto.GameMinDTO;
-import com.tohelp.feedbacks.services.GameService;
+import com.descrip.games.dto.GameDTO;
+import com.descrip.games.dto.GameMinDTO;
+import com.descrip.games.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

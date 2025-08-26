@@ -1,6 +1,6 @@
-package com.tohelp.feedbacks.dto;
+package com.descrip.games.dto;
 
-import com.tohelp.feedbacks.entities.GameList;
+import com.descrip.games.entities.GameList;
 import lombok.Getter;
 import lombok.Setter;
 

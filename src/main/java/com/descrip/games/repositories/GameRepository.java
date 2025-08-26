@@ -1,7 +1,7 @@
-package com.tohelp.feedbacks.repositories;
+package com.descrip.games.repositories;
 
-import com.tohelp.feedbacks.entities.Game;
-import com.tohelp.feedbacks.projections.GameMinProjection;
+import com.descrip.games.entities.Game;
+import com.descrip.games.projections.GameMinProjection;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

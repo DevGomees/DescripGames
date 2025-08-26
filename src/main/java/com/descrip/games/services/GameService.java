@@ -1,10 +1,10 @@
-package com.tohelp.feedbacks.services;
+package com.descrip.games.services;
 
-import com.tohelp.feedbacks.dto.GameDTO;
-import com.tohelp.feedbacks.dto.GameMinDTO;
-import com.tohelp.feedbacks.entities.Game;
-import com.tohelp.feedbacks.projections.GameMinProjection;
-import com.tohelp.feedbacks.repositories.GameRepository;
+import com.descrip.games.dto.GameDTO;
+import com.descrip.games.dto.GameMinDTO;
+import com.descrip.games.entities.Game;
+import com.descrip.games.projections.GameMinProjection;
+import com.descrip.games.repositories.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

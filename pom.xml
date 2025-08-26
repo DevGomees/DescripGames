@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tohelp</groupId>
-	<artifactId>feedbacks</artifactId>
+	<artifactId>DescripGames</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>feedbacks</name>
 	<description>Platform for feedbacks</description>

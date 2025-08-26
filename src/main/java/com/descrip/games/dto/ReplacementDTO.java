@@ -1,4 +1,4 @@
-package com.tohelp.feedbacks.dto;
+package com.descrip.games.dto;
 
 import lombok.Getter;
 import lombok.Setter;

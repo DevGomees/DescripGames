@@ -1,4 +1,4 @@
-package com.tohelp.feedbacks.entities;
+package com.descrip.games.entities;
 import lombok.Getter;
 import jakarta.persistence.*;
 import lombok.Setter;
