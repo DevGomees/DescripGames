@@ -2,7 +2,11 @@ package com.tohelp.feedbacks.dto;
 
 import com.tohelp.feedbacks.entities.Game;
 import com.tohelp.feedbacks.projections.GameMinProjection;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class GameMinDTO {
     private Long id;
     private String title;
@@ -26,26 +30,5 @@ public class GameMinDTO {
         year = projection.getGameYear();
         imgUrl = projection.getImgUrl();
         shortDescription = projection.getShortDescription();
-    }
-
-
-    public Long getId() {
-        return id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public Integer getYear() {
-        return year;
-    }
-
-    public String getImgUrl() {
-        return imgUrl;
-    }
-
-    public String getShortDescription() {
-        return shortDescription;
     }
 }

@@ -3,10 +3,14 @@ package com.tohelp.feedbacks.entities;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Objects;
 
 @Embeddable
+@Getter
+@Setter
 public class BelongingPk {
 
     @ManyToOne
@@ -21,22 +25,6 @@ public class BelongingPk {
     }
     public BelongingPk(Game game, GameList list) {
         this.game = game;
-        this.list = list;
-    }
-
-    public Game getGame() {
-        return game;
-    }
-
-    public void setGame(Game game) {
-        this.game = game;
-    }
-
-    public GameList getList() {
-        return list;
-    }
-
-    public void setList(GameList list) {
         this.list = list;
     }
 

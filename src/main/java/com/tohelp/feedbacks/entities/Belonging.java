@@ -3,11 +3,15 @@ package com.tohelp.feedbacks.entities;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Objects;
 
 @Entity
 @Table(name = "tb_belonging")
+@Getter
+@Setter
 public class Belonging {
     @EmbeddedId
     private BelongingPk id = new BelongingPk();
@@ -15,25 +19,9 @@ public class Belonging {
 
     public Belonging() {
     }
-   public Belonging(Game game, GameList list, Integer position) {
+    public Belonging(Game game, GameList list, Integer position) {
         id.setGame(game);
         id.setList(list);
-        this.position = position;
-   }
-
-    public BelongingPk getId() {
-        return id;
-    }
-
-    public void setId(BelongingPk id) {
-        this.id = id;
-    }
-
-    public Integer getPosition() {
-        return position;
-    }
-
-    public void setPosition(Integer position) {
         this.position = position;
     }
 

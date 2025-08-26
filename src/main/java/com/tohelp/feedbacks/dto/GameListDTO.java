@@ -1,7 +1,11 @@
 package com.tohelp.feedbacks.dto;
 
 import com.tohelp.feedbacks.entities.GameList;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class GameListDTO {
 
     private Long id;
@@ -12,13 +16,5 @@ public class GameListDTO {
     public GameListDTO(GameList entity) {
         id = entity.getId();
         name = entity.getName();
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
     }
 }
